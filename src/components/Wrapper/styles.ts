@@ -2,10 +2,6 @@ import styled from "styled-components";
 import backgroundImage from "../../assets/images/bg-user-image.svg";
 
 export const Container = styled.div`
-  width: 100%;
-  height: 90vh;
-  background-color: ${({ theme }) => theme.brand.colors.backgroundColor};
-
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -106,4 +102,9 @@ export const Footer = styled.footer`
   background-color: ${({ theme }) => theme.brand.colors.backgroundColor};
   text-align: center;
   padding: 31px 0;
+  margin-top: 64px;
+
+  @media screen and (max-width: 480px){
+    margin-top: 0;
+  }
 `;

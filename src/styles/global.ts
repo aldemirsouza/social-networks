@@ -10,6 +10,7 @@ export const GlobalStyles = createGlobalStyle`
  
  body{
   font-family: 'Roboto', sans-serif;
+  background-color: ${({ theme }) => theme.brand.colors.backgroundColor}; 
  }
 
  ol, ul {
