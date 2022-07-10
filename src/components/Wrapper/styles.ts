@@ -3,7 +3,7 @@ import backgroundImage from "../../assets/images/bg-user-image.svg";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background-color: ${({ theme }) => theme.brand.colors.backgroundColor};
 
   display: flex;
@@ -105,5 +105,5 @@ export const Footer = styled.footer`
   color: ${({ theme }) => theme.brand.colors.primary};
   background-color: ${({ theme }) => theme.brand.colors.backgroundColor};
   text-align: center;
-  padding: 32px 0;
+  padding: 31px 0;
 `;
