@@ -103,5 +103,7 @@ export const Footer = styled.footer`
   font-size: 0.875rem;
   line-height: 16px;
   color: ${({ theme }) => theme.brand.colors.primary};
-  margin-top: 64px;
+  background-color: ${({ theme }) => theme.brand.colors.backgroundColor};
+  text-align: center;
+  padding: 32px 0;
 `;
