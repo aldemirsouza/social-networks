@@ -1,7 +1,7 @@
 
 # My Links
 
-Projeto criado para disponinibilizar de forma rápida e prática meus links como porfolio e redes sociais
+Projeto criado para disponibilizar de forma rápida e prática meus links. Exemplo: Porfolio e redes sociais
 
 
 ## Author
